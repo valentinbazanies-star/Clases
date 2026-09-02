@@ -1,5 +1,0 @@
-siempre la pagina principal es de nombre index.html
-porque cuando nosotros despues del dominio no ponemos nada despues de http://midominio.com/(y esto esta vacio)
-el servidor la coloca automticamente /index.html
-la primera / despues de el .com se le llama raiz y eso lleva a la carpeta htpdocs/
-index.html siempre en la raiz

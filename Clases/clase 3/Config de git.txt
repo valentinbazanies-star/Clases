@@ -1,5 +1,0 @@
-git status
-git config user.name valentinbazanies-star
-git config user.mail valentinbazanies@gmail.com
-git config -l
-y dsp q para volver

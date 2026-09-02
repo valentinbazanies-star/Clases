@@ -1,0 +1,3 @@
+revistar la pag de mdn para ver todas las cosas de html
+form action es donde estan esos datos y donde se mandan 
+y el method es como

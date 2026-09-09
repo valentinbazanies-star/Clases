@@ -1,0 +1,9 @@
+- En el aula trabajar con cmd
+verificar si node esta instalado con node -v
+chequear si esta npm con npm -v
+
+instalar el paquete de five server en la pagina de npm
+npm i five-server
+ese codigo es para instalarlo en la pc tirado en la terminal de powershell
+npm i -g pnpm
+pnpm.io todos los comandos de pnpm

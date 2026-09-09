@@ -3,3 +3,6 @@ git config user.name valentinbazanies-star
 git config user.mail valentinbazanies@gmail.com
 git config -l
 y dsp q para volver
+
+
+npm i -g pnpm para instalar el pnpm en las pcs de las clases 

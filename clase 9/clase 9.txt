@@ -1,0 +1,13 @@
+1 forma de añadir css en html es con style como atributo pero es la pero
+otra con un elemnto style en el head de el html. entre esas estiquetas de <style> se coloca (tampoco la indicada)
+la forma a utilizar es con un archivo externo. porque es mas facil leer el codigo cuando mas crece
+y tambien porque va a impactar a todas las paginas que tenemos
+
+selectores de tipo se llama igual que un elemento html y tampoco tiene ningun caracter antes
+ej. body{}
+
+las reglas se identifican con el bloque
+selector de clase te permite apuntar un elemento en particular a partir de un atributo
+el selector de clase arranca con un .
+colores por hexagesimal. 333333. los 2 primero corresponden al rojo, los segundos la verde
+y los ultimos la azul

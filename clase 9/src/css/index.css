@@ -1,0 +1,41 @@
+/*
+Sintaxis
+*/
+/*
+Regla CSS
+selector´{
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+}
+ */
+ /* Selectores de tipo*/
+ body{
+    background-color: aqua;
+ }
+ header{
+    background-color: aquamarine;
+ }
+ a{
+    text-decoration: none;
+    color:  rgb(132, 56, 56);
+ }
+
+ /* Selectores de clase*/
+ .link-pie{
+    color: #00ff04;
+ }
+ .cabecera-principal{
+    background-color: blueviolet;
+ }
+ .cabecera-principal nav a{
+    background-color: indianred;
+ }
+ .contenido-principal{
+    background-color: darkorange;
+ }
+ .pie-principal{
+    background-color: bisque;
+ }
+
+ 

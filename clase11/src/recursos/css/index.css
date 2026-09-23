@@ -10,25 +10,12 @@ selector{
 }
     */
 *{
-    outline: 1px red solid; */
+    /* outline: 1px red solid; */
 }
-@font-face {
-    font-family: roboto;
-    src: url(.\fuentes\Roboto-Regular.ttf);
-}
-*{
-    box-sizing: border-box;
-}
-
 
 html, body, h1, h2, h3,p{
     margin:0;
     padding:0;
-}
-
-html{
-    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
 }
 /* Selectores de TIPO */
 body{
@@ -70,9 +57,6 @@ a{
     padding: 10px;
     background-color: #ccc;
 
-}
-.contenido-principal .contenedor p{
-    font-size: 1rem;
 }
 
 /* pie principal */

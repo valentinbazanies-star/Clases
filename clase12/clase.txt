@@ -1,0 +1,26 @@
+el flujo normal la position seleccionada de forma predeterminada por el navegador va a ser
+position: static la referencia que tiene es el lugar que se le asigno por default
+sticky se pega a su contenedor, hay que agregarle top, left, right o bottom
+hay que darle una referencia del contenedor
+la 3ra es absolute va a ir para arriba buscando un relative
+el relative es relativo a la posicion inicial de ahi se mueve para un costado o para el otro
+fixed. se va a posicionar en base al viewport, por ejemplo un icono de whatsapp o un chatbot abajo
+a la derecha.
+
+
+TEMAS DE PARCIAL
+
+responsividad siempre va al final por el tema de la cascada y la especificidad
+la cascada es aplica las reglas de arriba para abajo
+
+especifidad rompe las cascada 
+el selector de tipo es menos especifico que un selector de clase
+
+mobile-first primero se hace todo para el movil porque es mas usado
+y despues se va detectando el ancho de la pantalla y lo pasamos para pc
+
+selectores de tipo y de clase y de id
+modelo de caja
+comportamiento interno y externos
+grid
+

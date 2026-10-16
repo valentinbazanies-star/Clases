@@ -1,8 +1,8 @@
 // Estructura de control de Bucle
 
-// for(let i = 0; i <= 10;i++){
-//     console.log(i)
-// }
+for(let i = 0; i <= 10;i++){
+     console.log(i)
+ }
 
 // Arreglos
 // let numero1 = 5
@@ -25,14 +25,14 @@
 // console.log(numeros[1][2][0])
 
 
-// for(let i = 0; i < numeros.length;i++){
-//     console.log(numeros[i])
-// }
+/*for (let i = 0; i < numeros.length; i++) {
+    console.log(numeros[i])
+}*/
 
 
 // Objetos
 
-const persona = {
+/*const persona = {
     nombre: 'Andres',
     edad: 20,
     estudia: true,
@@ -54,4 +54,4 @@ console.log(persona.otros.mascotas)
 
 const templateLiterals = `
 Mi nombre es ${persona.nombre}
-`
+`*/

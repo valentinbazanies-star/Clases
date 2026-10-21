@@ -9,6 +9,7 @@ https://nodejs.org/en
 ## Verificar si tenemos NPM
 
 https://www.npmjs.com/
+npm -v
 
 ## Instalar PNPM
 

@@ -10,7 +10,7 @@
 <body>
     <header>
         <a href="./index.html">
-            <img src="./imagenes/logo.jpg" alt="logo huellitas">
+            <img src="./imagenes/logo.jpg" alt="logo consultoria" width="200">
         </a>
         <nav>
             <a href="./index.html">Inicio</a>
@@ -18,14 +18,50 @@
         </nav>
     </header>
     <main>
-        <img src="./imagenes/reunion.jpg" alt="imagen de reunion">
-        <h1>Martin Solares - Consultoría Estratégica en Digitalización e IA para PyMEs</h1>
-
-
-
-
-
+        <h1>Contacto</h1>
+        <h3>¿Interesado en optimizar los procesos de tu empresa? </h3>
+        <h3>Completa el siguiente formulario para evaluar la situación de tu negocio y coordinar una sesión de diagnóstico inicial de 30 minutos.</h3>
+        <form action="./contacto.html" method="post">
+            <label for="id-nombre">Nombre y Apellido</label>
+            <input type="text" name="nombre" id="id-nombre">
+            <label for="id-email">Correo Electrónico</label>
+            <input type="email" name="email" id="id-email">
+            <label for="id-telefono">Telefono</label>
+            <input type="tel" name="telefono" id="id-telefono">
+            <label for="id-nombre-empresa">Nombre de la Empresa</label>
+            <input type="text" name="nombre de la empresa" id="id-nombre-empresa">
+            <label for="id-tamaño-empresa">Tamaño de la Empresa</label>
+            <select type="text" name="tamaño de la empresa" id="id-tamaño-empresa">
+                <option value="p">1 a 10 empleados</option>
+                <option value="m">11 a 50 empleados</option>
+                <option value="g">Más de 50 empleados</option>
+            </select>
+            <label for="id-servicio">Servicio de Interés</label>
+            <label for="id-servicio">Diagnostico Digital Integral</label>
+            <input type="checkbox" name="servicio" value="Diagnostico">
+            <label for="id-servicio">Implementacion de Herramientas de IA</label>
+            <input type="checkbox" name="servicio" value="ia">
+            <label for="id-servicio">Capacitación Empresarial</label>
+            <input type="checkbox" name="servicio" value="capacitacion">
+            <label for="id-servicio">Acompañamiento Ejecutivo</label>
+            <input type="checkbox" name="servicio" value="acompañamiento">
+            <label for="id-necesidad">Breve Descripción de la Necesidad</label>
+            <textarea name="necesidad" id="id-necesidad"></textarea>
+            <input type="submit" value="Enviar Solicitud">
     </main>
+    <footer>
+        <p>&copy; 2023 Martin Solares - Consultoría Estratégica en Digitalización e IA para PyMEs. Todos los derechos
+            reservados.</p>
+        <p>Redes Sociales</p>
+        <ul>
+            <li>
+
+                <a href="https://www.instagram.com/martin.solares" target="_blank">
+                    @martin.solares
+                </a>
+            </li>
+        </ul>
+    </footer>
 
 </body>
 

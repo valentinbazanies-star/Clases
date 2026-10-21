@@ -1,0 +1,117 @@
+/*
+Sintaxis
+*/
+/*
+REGLA CSS
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+}
+    */
+* {
+    /* outline: 1px red solid; */
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selectores de TIPO */
+body {
+    background-color: #ffffff;
+    /*height: 600px;*/
+}
+
+header {
+    background-color: rgb(49, 25, 25);
+    /*!important;*/
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* selectores de CLASE */
+.vinculo-pie {
+    color: #333333;
+}
+
+/* Cabecera */
+.cabecera-principal {
+    position: sticky;
+    top: 0;
+    background-color: #999999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 1;
+}
+
+.cabecera-principal nav {
+    display: none;
+}
+
+.cabecera-principal a img {
+    width: 50px;
+}
+
+.cabecera-principal nav a {
+    color: #333;
+}
+
+/* contenido principal */
+.contenido-principal {
+    height: 1500px;
+
+}
+
+.contenido-principal .contenedor {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: #ccc;
+    position: absolute;
+    /*position:relative;*/
+    top: 100px;
+    right: 200px;
+    border: 2px solid #000;
+
+}
+
+/* pie principal */
+.pie-principal {
+    background-color: #999999;
+}
+
+.pie-principal .contacto-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+}
+
+/* selector de atributo
+[]{
+
+} */
+/* #navegacion-principal{
+    background-color: #333333;
+} */
+/*para escritorio*/
+@media (width > 600px) {
+    .cabecera-principal nav {
+        display: block;
+    }
+    .cabecera-principal .boton-menu{
+        display: none;
+    }
+}

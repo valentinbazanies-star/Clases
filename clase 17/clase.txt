@@ -1,0 +1,16 @@
+metodos de arreglo
+arreglo.forEach() --> no devuelve nada
+arreglo.map() --> devuelve un nuevo arreglo
+arreglo.filter() --> devuelve un nuevo arreglo
+arreglo.find() --> 
+
+
+el find siempre va a tener o un elemento o ningun elemento. o devuelve 1 cosa o undefine
+es como un booleano
+
+dom = document object model
+
+cuando se renderiza la web levanta en memoria una representacion de ese arbol
+en la memoria del navegador
+y luego js vamos a poder tener acceso y manipular ese dom como queramos
+

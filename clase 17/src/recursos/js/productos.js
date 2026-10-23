@@ -1,7 +1,7 @@
 const productosMascotas = [
     {
         nombre: "Collar Ajustable de Nylon",
-        imagen: "https://ejemplo.com/imagenes/collar-nylon.jpg",
+        imagen: "./recursos/imagenes/perro-gato.jpg",
         descripcion: "Resistente collar de nylon con broche de seguridad para perros.",
         talles: ["S", "M", "L"],
         precio: 12.50
@@ -70,3 +70,38 @@ const productosMascotas = [
         precio: 8.50
     }
 ];
+
+const contenedorProductos = document.getElementById('contenedor-productos');
+
+/**
+ * 
+ * @param {HTMLElement} contenedor 
+ * @param {Array} productos
+ */
+function renderizarProductos(contenedor, productos) {
+    let productosHTML = '';
+
+    productos.forEach((producto) => {
+        productosHTML += `
+        <article>
+            <h3>${producto.nombre}</h3>
+            <picture>
+                <img src="${producto.imagen}" alt="${producto.nombre}">
+            </picture>
+            <p>
+                ${producto.descripcion}
+            </p>
+            <ul>
+                <li>Talles ${producto.talles.join(' ')}</li>
+                <li>Precio $ ${producto.precio}</li>
+                
+            </ul>
+        </article>
+        `;
+    });
+
+
+    contenedor.innerHTML = productosHTML;
+}
+
+renderizarProductos(contenedorProductos, productosMascotas);

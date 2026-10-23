@@ -10,7 +10,8 @@ es como un booleano
 
 dom = document object model
 
+mediante esta interfaz se conecta html con js
+
 cuando se renderiza la web levanta en memoria una representacion de ese arbol
 en la memoria del navegador
 y luego js vamos a poder tener acceso y manipular ese dom como queramos
-

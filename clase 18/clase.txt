@@ -1,0 +1,23 @@
+modulos
+
+se utiliza para evitar conflictos cuando conectan varios a un mismo html
+
+las variables en los modulos son de solo lectura
+
+
+para exportar productos utilizamos
+export default
+export {}
+
+importaciones siempre al principio
+
+solo se hay 1 export default
+esta exportacion es no nombrada
+
+la exportacion nombrada hay que respetar el nombre
+
+
+//Exportacion NO nombrada
+export default productosMascotas --> solo una por modulo
+//Exportacion nombrada
+export {productosMascotas, otroArreglo} --> la cantidad que se necesite

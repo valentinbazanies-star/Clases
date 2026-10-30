@@ -1,0 +1,5 @@
+eventos 
+listeners --> html mediante el dom
+manejadores handlers --> function (callback)
+
+

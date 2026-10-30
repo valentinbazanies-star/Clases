@@ -16,7 +16,7 @@ function renderizadoProductos(contenedor, productos) {
                 <li>Talle ${producto.talles[0]}</li>
                 <li>Precio $ ${productosHTML.precio}</li>
             </ul>
-            <button class="boton-agregar">Agregar producto al carro</button>
+            <button class="boton-agregar" data-id="${producto.id}">Agregar producto al carro</button>
         </article>
         `
     })
@@ -27,8 +27,14 @@ function renderizadoProductos(contenedor, productos) {
 
 }
 
+function filtrarProductos(productos, precio){
+    return productos.filter((producto)=>{
+        return producto.precio < precio
+    })
+
+}
 // function funcion2(){
 //     console.log
 // }
 
-export {renderizadoProductos}
+export {renderizadoProductos, filtrarProductos}
